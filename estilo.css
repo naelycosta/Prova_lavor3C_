@@ -8,9 +8,16 @@ html, body {
   }
   
  
+  img{
+    height: 90%;
+    width: 80%;
   
+  }
 
-
+select{
+  position: absolute;
+  text-align: center;
+}
 
 
       
