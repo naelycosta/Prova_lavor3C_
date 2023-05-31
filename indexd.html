@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div>
+    <h1>Login</h1>
+    <form>
+        <input type="text" placeholder="emal" id="e-mail">
+        <br><br>
+        <input type="password" placeholder="emal" id="senha">
+        <br><br>
+        <input type="submit" onclick="logar(); return false">
+        <br><br>
+    </form>
+   </div>
+   <script>
+    function logar(){
+        var login = document.getElementById('e-mail').value;
+        var senha = document.getElementById('senha').value;
+        if(login == "naelycosta759@gmail.com" && senha == "provalavor"){
+            alert('logado com sucesso')
+            Location.href = "inicio.html";
+        }
+        else{
+            alert('erro ao logar')
+        }
+    }
+   </script>
+             
+
+</body>
+</html>
